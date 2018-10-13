@@ -1,0 +1,103 @@
+body {
+  position: relative;
+  top: 100px;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: .1px;
+  left: .1px;
+  background-color: #005792;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top a{
+  color: white;
+  text-decoration: none;
+}
+.top li+li a{
+  margin-right: 25px;
+}
+
+ a, .top li{
+   list-style: none;
+   text-decoration: none;
+   color: white;
+ }
+
+img{
+  width: 82px;
+  height: 82px;
+  border-style: groove;
+
+}
+
+ .cont {
+  font-size: 10px;
+display: flex;
+border-style: groove;
+margin-right: 20px;
+padding-left: 15px;
+padding-top: 5px;
+background-color: dodgerblue;
+  }
+
+.work{
+  clear: both;
+}
+
+div {
+position: relative;
+bottom: 15px;
+left: 9px;
+color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1+p{
+  font-size: 20px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+h1{
+  font-size: 16px;
+  margin-bottom: 1px;
+}
+
+h1+p+p{
+  margin-top: 2px;
+}
+
+body{
+  background-image: url(https://image.freepik.com/free-photo/grey-gradient-blurred-abstract-background_3248-2658.jpg);
+}
+
+.cont p+p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.work , .skool , .group{
+  font-size: 10px;
+border-style: groove;
+margin-right: 20px;
+padding-left: 15px;
+padding-top: 5px;
+background-color: dodgerblue;
+}
+
+.group a{
+  color: white;
+  text-decoration: underline;
+}
