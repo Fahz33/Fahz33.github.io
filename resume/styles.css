@@ -2,7 +2,6 @@ body {
   position: relative;
   top: 100px;
   font-family: 'Nunito', sans-serif;
-
 }
 
 nav {
@@ -18,38 +17,38 @@ nav {
   justify-content: space-between;
 }
 
-.top a{
+.top a {
   color: white;
   text-decoration: none;
 }
-.top li+li a{
+
+.top li+li a {
   margin-right: 25px;
 }
 
- a, .top li{
-   list-style: none;
-   text-decoration: none;
-   color: white;
- }
+a, .top li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
 
-img{
+img {
   width: 82px;
   height: 82px;
   border-style: groove;
-
 }
 
- .cont {
+.cont {
   font-size: 10px;
-display: flex;
-border-style: groove;
-margin-right: 20px;
-padding-left: 15px;
-padding-top: 5px;
-background-color: dodgerblue;
-  }
+  display: flex;
+  border-style: groove;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-top: 5px;
+  background-color: dodgerblue;
+}
 
-.work{
+.work {
   clear: both;
 }
 
@@ -80,7 +79,7 @@ h1+p+p{
 }
 
 body{
-  background-image: url(https://image.freepik.com/free-photo/grey-gradient-blurred-abstract-background_3248-2658.jpg);
+  background-color: #285675;
 }
 
 .cont p+p {
